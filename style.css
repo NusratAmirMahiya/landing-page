@@ -1,0 +1,42 @@
+body{
+    margin: auto;
+    padding: 20px;
+}
+.banner{
+background-image: url(fire.jpg);
+background-size:cover;
+height: 700px;
+padding: 30px;
+background: linear-gradient (rgba(0,0,0,0.8), rgb(0,0,0,0.8)),
+
+}
+.nav{
+    float: right;
+}
+.nav li{
+display: inline-block;
+color: #fff;
+text-decoration: none;
+padding: 5px 20px;
+font-size: 16px;
+text-transform:uppercase;
+}
+.nav li:hover{
+    background-color: crimson;
+
+}
+.logo{
+    float: left;
+}
+.content{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 30% 30%;
+    text-align: center;
+}
+.content h1 {
+    font-size: 60px;
+    color: rgb(14, 13, 13);
+    text-transform: uppercase;
+}
